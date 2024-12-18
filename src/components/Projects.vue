@@ -1,0 +1,75 @@
+<script setup lang="ts">
+const projetos = [
+  {
+    titulo: 'Cardápio dígital',
+    descricao: 'Cardápio de uma lanchonete com funcionalidades de horário de funcionamento e pedidos via WhatsApp.',
+    tecnologias: ['JavaScript', 'TailwindCSS', 'API'],
+    imagem: 'https://via.placeholder.com/600x300?text=Plataforma+de+E-commerce',
+    github: 'https://github.com/Lucas19Alves/cardapio',
+    demo: 'https://demo.com'
+  },
+  {
+    titulo: 'PMS de Hotel',
+    descricao: 'Sistema completo para hotelaria com funcionalidades de cadastros, reservas e gerenciamento de quartos.',
+    tecnologias: ['JavaScript', 'TailwindCSS', 'PHP', 'MySQL'],
+    imagem: 'https://via.placeholder.com/600x300?text=Sistema+de+Gest%C3%A3o+de+Tarefas',
+    github: 'https://github.com/Lucas19Alves/sistema-hotel-mb',
+    demo: 'https://demo.com'
+  },
+  
+];
+</script>
+
+<template>
+  <section id="projetos" class="section-padding bg-gray-50">
+    <div class="container mx-auto px-4">
+      <!-- Título -->
+      <h2 class="text-4xl font-bold text-center mb-12 text-gray-800" data-aos="fade-up">
+        Projetos em Destaque
+      </h2>
+      
+      <!-- Grid -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Card do Projeto -->
+        <div 
+          v-for="(projeto, index) in projetos" 
+          :key="projeto.titulo"
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+          data-aos="fade-up"
+          :data-aos-delay="index * 200"
+        >
+          <img :src="projeto.imagem" :alt="projeto.titulo" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">{{ projeto.titulo }}</h3>
+            <p class="text-gray-600 mb-4">{{ projeto.descricao }}</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span v-for="tech in projeto.tecnologias" 
+                    :key="tech"
+                    class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
+                {{ tech }}
+              </span>
+            </div>
+            <!-- Botões -->
+            <div class="flex space-x-4 mt-4">
+              <a :href="projeto.github" 
+                 target="_blank"
+                 class="flex-1 text-center bg-primary text-white px-4 py-2 rounded-lg font-medium hover:bg-gray-600 transition">
+                <i class="fas fa-code mr-2"></i> Ver Código
+              </a>
+              <a :href="projeto.demo" 
+                 target="_blank"
+                 class="flex-1 text-center bg-primary text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-500 transition">
+                <i class="fas fa-external-link-alt mr-2"></i> Ver Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<!-- Importar FontAwesome -->
+<style>
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+</style>
