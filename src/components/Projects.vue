@@ -4,7 +4,7 @@ const projetos = [
     titulo: 'Cardápio dígital',
     descricao: 'Cardápio de uma lanchonete com funcionalidades de horário de funcionamento e pedidos via WhatsApp.',
     tecnologias: ['JavaScript', 'TailwindCSS', 'API'],
-    imagem: '/images/cardapio.png',
+    imagem: 'src/assets/cardapio.png',
     github: 'https://github.com/Lucas19Alves/cardapio',
     demo: 'https://cardapio-flax-five.vercel.app/'
   },
@@ -12,7 +12,7 @@ const projetos = [
     titulo: 'Gerador de Currículo',
     descricao: 'Gerador de currículo simples e prático, com opção de download em PDF.',
     tecnologias: ['JavaScript'],
-    imagem: '/images/curriculo.png',
+    imagem: 'src/assets/curriculo.png',
     github: 'https://github.com/Lucas19Alves/gerador-curriculo',
     demo: 'https://gerador-curriculo-bice.vercel.app/'
   },
