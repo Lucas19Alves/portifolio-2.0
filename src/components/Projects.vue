@@ -6,15 +6,15 @@ const projetos = [
     tecnologias: ['JavaScript', 'TailwindCSS', 'API'],
     imagem: 'https://via.placeholder.com/600x300?text=Plataforma+de+E-commerce',
     github: 'https://github.com/Lucas19Alves/cardapio',
-    demo: 'https://demo.com'
+    demo: 'https://cardapio-flax-five.vercel.app/'
   },
   {
-    titulo: 'PMS de Hotel',
-    descricao: 'Sistema completo para hotelaria com funcionalidades de cadastros, reservas e gerenciamento de quartos.',
-    tecnologias: ['JavaScript', 'TailwindCSS', 'PHP', 'MySQL'],
+    titulo: 'Gerador de Currículo',
+    descricao: 'Gerador de currículo simples e prático, com opção de download em PDF.',
+    tecnologias: ['JavaScript'],
     imagem: 'https://via.placeholder.com/600x300?text=Sistema+de+Gest%C3%A3o+de+Tarefas',
-    github: 'https://github.com/Lucas19Alves/sistema-hotel-mb',
-    demo: 'https://demo.com'
+    github: 'https://github.com/Lucas19Alves/gerador-curriculo',
+    demo: 'https://gerador-curriculo-bice.vercel.app/'
   },
   
 ];
