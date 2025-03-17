@@ -4,7 +4,7 @@ const projetos = [
     titulo: 'Cardápio dígital',
     descricao: 'Cardápio de uma lanchonete com funcionalidades de horário de funcionamento e pedidos via WhatsApp.',
     tecnologias: ['JavaScript', 'TailwindCSS', 'API'],
-    imagem: 'https://github.com/Lucas19Alves/portifolio-2.0/blob/main/src/assets/cardapio.png?raw=true',
+    imagem: 'src/assets/cardapio.png',
     github: 'https://github.com/Lucas19Alves/cardapio',
     demo: 'https://cardapio-flax-five.vercel.app/'
   },
@@ -12,9 +12,17 @@ const projetos = [
     titulo: 'Gerador de Currículo',
     descricao: 'Gerador de currículo simples e prático, com opção de download em PDF.',
     tecnologias: ['JavaScript'],
-    imagem: 'https://github.com/Lucas19Alves/portifolio-2.0/blob/main/src/assets/curriculo.png?raw=true',
+    imagem: 'src/assets/curriculo.png',
     github: 'https://github.com/Lucas19Alves/gerador-curriculo',
     demo: 'https://gerador-curriculo-bice.vercel.app/'
+  },
+  {
+    titulo: 'Sistema Hoteleiro (Em andamento)',
+    descricao: 'Sistema de gerenciamento de reservas de um hotel, com opção de check-in e check-out.',
+    tecnologias: ['JavaScript', 'NodeJS', 'PHP', 'MySQL', 'TailwindCSS' ],
+    imagem: 'src/assets/pms.png',
+    github: 'https://github.com/Lucas19Alves/PMS',
+    demo: 'https://pms-gold.vercel.app/'
   },
   
 ];

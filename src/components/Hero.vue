@@ -13,7 +13,7 @@
           Transformando ideias em soluções criativas e funcionais. Vamos nos conectar!
         </p>
         <div class="flex justify-center space-x-4 mb-8" data-aos="fade-up" data-aos-delay="400">
-          <a href="https://wa.me/5577991156978"><i class="fa-brands fa-whatsapp fa-2x hover:text-primary"></i></a>
+          <a href="https://wa.me/5511981927567"><i class="fa-brands fa-whatsapp fa-2x hover:text-primary"></i></a>
           <a href="https://github.com/Lucas19Alves"><i class="fa-brands fa-github fa-2x hover:text-primary"></i></a>
           <a href="https://www.linkedin.com/in/lucaas19alves/"><i class="fa-brands fa-linkedin fa-2x hover:text-primary"></i></a>
         </div>
