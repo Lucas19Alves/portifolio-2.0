@@ -24,6 +24,14 @@ const projetos = [
     github: 'https://github.com/Lucas19Alves/PMS',
     demo: 'https://pms-gold.vercel.app/'
   },
+  {
+    titulo: 'Gerador de QRCode',
+    descricao: 'Gerador de QRCode dinâmico com opção de download em PNG.',
+    tecnologias: ['JavaScript', 'NodeJS', 'Express', 'VueJS', 'Bootstrap' , 'API'],
+    imagem: new URL('../assets/qrcode.png', import.meta.url).href,
+    github: 'https://github.com/Lucas19Alves/gerador-qr-code',
+    demo: 'https://gerador-qr-code-plum.vercel.app/'
+  },
   
 ];
 </script>
