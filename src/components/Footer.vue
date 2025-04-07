@@ -4,16 +4,13 @@
       <div class="text-center">
         <h3 class="text-2xl font-bold mb-4">Saiba ainda mais sobre mim.</h3>
         <div class="flex justify-center space-x-6 mb-8">
-          <a href="#" class="hover:text-primary transition-colors">
-            <span class="sr-only">GitHub</span>
+          <a href="https://wa.me/5511981927567" class="hover:text-green-500 transition-colors">
             <i class="fa-brands fa-whatsapp fa-2x"></i>
           </a>
-          <a href="#" class="hover:text-primary transition-colors">
-            <span class="sr-only">Twitter</span>
+          <a href="https://github.com/Lucas19Alves" class="hover:text-orange-500 transition-colors">
             <i class="fa-brands fa-github fa-2x"></i>
           </a>
-          <a href="#" class="hover:text-primary transition-colors">
-            <span class="sr-only">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/lucaas19alves/" class="hover:text-blue-500 transition-colors">
             <i class="fa-brands fa-linkedin fa-2x"></i>
           </a>
         </div>
