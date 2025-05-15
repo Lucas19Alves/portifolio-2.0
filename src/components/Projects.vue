@@ -32,6 +32,14 @@ const projetos = [
     github: 'https://github.com/Lucas19Alves/gerador-qr-code',
     demo: 'https://gerador-qr-code-plum.vercel.app/'
   },
+  {
+    titulo: 'Landing Page',
+    descricao: 'Landing page de uma empresa de tecnologia, com animações e responsividade.',
+    tecnologias: ['JavaScript', 'NodeJS', 'React', 'TailwindCSS' , 'API'],
+    imagem: new URL('../assets/landig.png', import.meta.url).href,
+    github: 'https://github.com/Lucas19Alves/sunshine-sol',
+    demo: 'https://sunshine-sol-build.vercel.app/'
+  },
   
 ];
 </script>
