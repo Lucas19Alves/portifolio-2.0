@@ -1,5 +1,14 @@
 <script setup lang="ts">
 const projetos = [
+  
+  {
+    titulo: 'Plataforma de Trabalho Dev',
+    descricao: 'Plataforma de trabalho para desenvolvedores, com foco na concentração e gerenciamento de tarefas.',
+    tecnologias: ['Vite', 'JavaScript', 'NodeJS', 'VueJS', 'TailwindCSS' , 'API'],
+    imagem: new URL('../assets/devroom.png', import.meta.url).href,
+    github: 'https://github.com/Lucas19Alves/dev-room',
+    demo: 'https://dev-room-three.vercel.app/'
+  },
   {
     titulo: 'Cardápio dígital',
     descricao: 'Cardápio de uma lanchonete com funcionalidades de horário de funcionamento e pedidos via WhatsApp.',
