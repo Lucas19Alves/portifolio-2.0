@@ -7,7 +7,7 @@
     <div class="container mx-auto">
       <div class="max-w-3xl mx-auto text-center">
         <h1 class="text-5xl md:text-6xl font-bold mb-6" data-aos="fade-up">
-          Desenvolvedor Full Stack
+          Desenvolvedor Front End
         </h1>
         <p class="text-xl text-gray-600 mb-8" data-aos="fade-up" data-aos-delay="200">
           Transformando ideias em soluções criativas e funcionais. Vamos nos conectar!

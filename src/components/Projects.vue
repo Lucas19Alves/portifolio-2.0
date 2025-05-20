@@ -2,7 +2,7 @@
 const projetos = [
   
   {
-    titulo: 'Plataforma de Trabalho Dev',
+    titulo: 'Dev Room',
     descricao: 'Plataforma de trabalho para desenvolvedores, com foco na concentração e gerenciamento de tarefas.',
     tecnologias: ['Vite', 'JavaScript', 'NodeJS', 'VueJS', 'TailwindCSS' , 'API'],
     imagem: new URL('../assets/devroom.png', import.meta.url).href,
@@ -92,7 +92,7 @@ const projetos = [
               <a :href="projeto.demo" 
                  target="_blank"
                  class="flex-1 text-center bg-primary text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-500 transition">
-                <i class="fas fa-external-link-alt mr-2"></i> Ver Demo
+                <i class="fas fa-external-link-alt mr-2"></i> Ver Projeto
               </a>
             </div>
           </div>

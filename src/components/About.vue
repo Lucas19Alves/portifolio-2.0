@@ -9,7 +9,7 @@
         <div data-aos="fade-left">
           <h3 class="text-2xl font-semibold mb-4">Olá, eu sou Lucas</h3>
           <p class="text-gray-600 mb-6">
-            Sou desenvolvedor Full Stack apaixonado por transformar ideias em soluções funcionais.
+            Sou desenvolvedor Front End apaixonado por transformar ideias em soluções funcionais.
             Com experiência em desenvolvimento web e sistemas, crio aplicações escaláveis e eficientes,
             utilizando tecnologias modernas como <strong>Vue.js</strong>, <strong>Node.js</strong> e bancos de dados
             como
@@ -22,7 +22,7 @@
             </div>
             <div class="flex items-center">
               <span class="font-semibold w-32">Localização:</span>
-              <span class="text-gray-600">São Paulo / Disponível para trabalho remoto</span>
+              <span class="text-gray-600">São Paulo</span>
             </div>
             <div class="flex items-center">
               <span class="font-semibold w-32">E-mail:</span>
